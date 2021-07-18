@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CalculateUI/1.0.0": {
+        "dependencies": {
+          "CalculateLibrary": "1.0.0"
+        },
+        "runtime": {
+          "CalculateUI.dll": {}
+        }
+      },
+      "CalculateLibrary/1.0.0": {
+        "runtime": {
+          "CalculateLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculateUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculateLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
