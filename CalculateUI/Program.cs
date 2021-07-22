@@ -24,7 +24,7 @@ namespace CalculateUI
 
 
 
-
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("Calculator Program");
             Console.WriteLine("..............................................................................................");
             //Prompting user to enter 2 inputs to find sum then display results
@@ -36,6 +36,7 @@ namespace CalculateUI
             int summmg = Calculator.Sum(n1, n2);
             Console.WriteLine("\nThe sum  is : {0} \n", summmg);
             Console.WriteLine("..............................................................................................");
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             //Prompting user to enter 2 inputs to find difference then display results
             Console.WriteLine("Let's find the difference of two numbers");
             Console.Write("Enter a number:    ");
@@ -45,6 +46,7 @@ namespace CalculateUI
             int dif = Calculator.Difference(nu1, nu2);
             Console.WriteLine("\nThe difference is : {0} \n", dif);
             Console.WriteLine("..............................................................................................");
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             //Prompting user to enter 2 inputs to find product then display results
             Console.WriteLine("Let's find the product of two numbers!");
             Console.Write("Enter a number:    ");
@@ -54,6 +56,7 @@ namespace CalculateUI
             int pro = Calculator.Product(num1, num2);
             Console.WriteLine("\nThe product is : {0} \n",pro );
             Console.WriteLine("..............................................................................................");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             //Prompting user to enter 2 inputs to find how many times goes and the reminder then display results
             Console.WriteLine("Let's find the quotient of two numbers!");
             Console.Write("Enter a number:    ");
@@ -64,6 +67,7 @@ namespace CalculateUI
             int qua =Calculator.Quotient(numb1, numb2);
             Console.WriteLine("\nIt goes: " + " " + (number) + " time(s) " + "    the reminder is : {0}", qua);
             Console.WriteLine("..............................................................................................");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             //Prompting user to enter an input to find square root then display results
             Console.WriteLine("Let's find the square root of any number!");
             Console.Write("Enter a number:    ");
@@ -74,6 +78,7 @@ namespace CalculateUI
             //Prompting user to enter Y for Yes or  N for No, if user wants to see calculation history then display results
             Console.Write("Would you like to see your History? Y/N:    ");
             string answer = Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.Cyan;
             if (answer == "Y" || answer == "y")
             {
                 Console.WriteLine("___________________________________________________________________________________________");
